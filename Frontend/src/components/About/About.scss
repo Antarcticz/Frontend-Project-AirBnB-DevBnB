@@ -1,0 +1,38 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80.25rem;
+        height: 58.75rem;
+        margin-top: 1.625rem;
+        margin-bottom: 10rem;
+        background-color: #00000050;
+        border-radius: 1rem;
+        padding: 1rem 16rem 1rem 16rem;
+
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        .line-v1 {
+            width: 48.5rem;
+            height: 0.125rem;
+            background-color: #ffffff25;
+        }
+
+        .line-v2 {
+            width: 31.25rem;
+            height: 0.125rem;
+            background-color: #ffffff25;
+        }
+    }
+}

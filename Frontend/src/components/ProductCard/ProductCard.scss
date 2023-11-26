@@ -1,0 +1,93 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .product-card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 91.25rem;
+        height: auto;
+
+        .card {
+            width: 28.125rem;
+            height: 24.25rem;
+            border: 1px solid #000;
+            border-radius: 1rem;
+            margin-bottom: 3.5rem;
+
+
+            .product-img-container {
+                width: 100%;
+                height: 16.125rem;
+                border: 0.5px solid #000;
+                border-radius: 1rem 1rem 0 0;
+
+                .product-img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 1rem 1rem 0 0;
+                }
+            }
+
+            .card-content {
+                width: 100%;
+                height: 8.125rem;
+                border: 0.5px solid #000;
+                border-radius: 0 0 1rem 1rem;
+                padding: 1rem;
+
+                h2,
+                h4,
+                p {
+                    -webkit-text-stroke: 0px #000;
+                    line-height: 1.2rem;
+                }
+
+                h4 {
+                    color: #7C7C7C;
+                }
+
+
+                .product-title-n-location {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .product-title {
+                        padding-right: 1rem;
+                    }
+                }
+
+                .product-price-n-offers {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .product-price-n-night {
+                        display: flex;
+                        flex-direction: row;
+
+                        .product-price {
+                            padding-right: 1rem;
+                        }
+                    }
+                }
+
+                .product-offers {
+                    width: 1.5625rem;
+                    height: 1.09375rem;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

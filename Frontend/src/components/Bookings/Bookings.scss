@@ -1,0 +1,110 @@
+.bookings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .bookings-container {
+        width: 72rem;
+        height: 27rem;
+        margin-bottom: 1.5rem;
+
+        .bookings-imgURLs-n-cost-info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            height: auto;
+
+
+            .bookings-imgURLs {
+                width: 17rem;
+                height: 20rem;
+
+
+                .imgURLs {
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid #000;
+                    border-radius: 1rem;
+                }
+            }
+
+            .bookings-cost-info-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                padding: 2rem;
+                width: 53rem;
+                height: 20rem;
+                border-radius: 1rem;
+                background-color: #00000050;
+
+                .bookings-info {
+                    width: 60%;
+                    margin-bottom: 1rem;
+                }
+
+                .bookings-cost-per-night-n-total,
+                .bookings-fee-n-cost,
+                .bookings-in-total {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+
+                .line-v4 {
+                    height: 2px;
+                    width: 100%;
+                    margin-bottom: 1rem;
+                    border: 1px solid #ffffff25;
+                }
+            }
+        }
+
+        .booking-btn-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            height: 6.8rem;
+
+            .remove-btn {
+                width: 20%;
+                border: none;
+                border-radius: 1rem;
+                margin-right: 2rem;
+                background-image: linear-gradient(#000, hsl(0, 100%, 50%), #000);
+                color: #fff;
+
+                &:hover {
+                    background-image: linear-gradient(#000, hsl(0, 100%, 40%), #000);
+                }
+
+                h4 {
+                    margin-block-start: 0.65rem;
+                    margin-block-end: 0.65rem;
+                }
+            }
+
+            .continue-btn {
+                width: 20%;
+                border: none;
+                border-radius: 1rem;
+                background-image: linear-gradient(#000, hsl(104, 100%, 50%), #000);
+                color: #fff;
+
+                &:hover {
+                    background-image: linear-gradient(#000, hsl(104, 100%, 40%), #000);
+                }
+
+                h4 {
+                    margin-block-start: 0.65rem;
+                    margin-block-end: 0.65rem;
+                }
+            }
+        }
+    }
+}
